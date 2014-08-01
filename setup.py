@@ -1,8 +1,8 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="iplib",
-    package_dir={"" : "src" },
-    packages=find_packages("src"),
     version="1.1",
+    package_dir={'': 'src'},
+    packages=[''],
 )
